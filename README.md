@@ -11,7 +11,7 @@ Pytorch implementation of the paper "RATE-QUALITY BASED RATE CONTROL MODEL FOR N
 ## About
 
 This repository defines a rate control approach for learned video compression, which is designed to minimize bitrate errors while effectively preserving the hierarchical inter-frame quality structure. After obtaining the target bit rate, first perform multi granularity bit rate allocation on the target bit rate, including gop level and frame level. After obtaining the target bitrate of the current frame, the coding parameters are calculated through R-Q modeling for actual coding. Finally, the R-Q model is updated in real-time based on the rate error, and enters the coding process of the next frame.
-![cnn_arch](./assets/network.png)
+![cnn_arch](./asserts/network.png)
 
 ## Data Preparation
 ### Test Dataset

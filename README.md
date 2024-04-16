@@ -1,6 +1,6 @@
 # Introduction
 
-Pytorch implementation of the paper "RATE-QUALITY BASED RATE CONTROL MODEL FOR NEURAL VIDEO COMPRESSION". ICASSP 2024.
+Pytorch implementation of the paper "RATE-QUALITY BASED RATE CONTROL MODEL FOR NEURAL VIDEO COMPRESSION". ICASSP 2024. The current version is based on DCVC-DC implementation. Other versions are currently being organized and are expected to be updated weekly.
 
 ## Requirements
 

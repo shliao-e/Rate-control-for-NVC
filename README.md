@@ -50,6 +50,7 @@ Different target bitrates should be selected for different sequences, because th
   - BQSquare: 0.15   
   - BlowingBubbles: 0.15    
   - BasketballPass: 0.10
+
 When testing, you can specify the test sequence through '--test_class' and '--sec_id', and specify the target bitrate through '--target_bpp'. Take the 'RaceHorses' sequence of ClassD as an example: 
 ```
 python eval.py --pretrain "path/YOUR_VIDEO.pth" --intra_model "path/YOUR_IMAGE.pth" --test_class ClassD --sec_id 0 --target_bpp 0.20

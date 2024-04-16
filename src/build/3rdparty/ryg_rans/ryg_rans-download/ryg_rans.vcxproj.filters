@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\ryg_rans\ryg_rans-download\CMakeFiles\df8e908e81c69a6c5c4b2bd497bf862e\ryg_rans-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\ryg_rans\ryg_rans-download\CMakeFiles\df8e908e81c69a6c5c4b2bd497bf862e\ryg_rans-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\ryg_rans\ryg_rans-download\CMakeFiles\df8e908e81c69a6c5c4b2bd497bf862e\ryg_rans-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\ryg_rans\ryg_rans-download\CMakeFiles\df8e908e81c69a6c5c4b2bd497bf862e\ryg_rans-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\ryg_rans\ryg_rans-download\CMakeFiles\df8e908e81c69a6c5c4b2bd497bf862e\ryg_rans-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\ryg_rans\ryg_rans-download\CMakeFiles\df8e908e81c69a6c5c4b2bd497bf862e\ryg_rans-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\ryg_rans\ryg_rans-download\CMakeFiles\df8e908e81c69a6c5c4b2bd497bf862e\ryg_rans-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\ryg_rans\ryg_rans-download\CMakeFiles\df8e908e81c69a6c5c4b2bd497bf862e\ryg_rans-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\ryg_rans\ryg_rans-download\CMakeFiles\c4376a5f646b406ca4f23ade05589f35\ryg_rans-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\ryg_rans\ryg_rans-download\CMakeFiles\343ceb57a1a04d2e1d2ad5bbc83958ca\ryg_rans.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\ryg_rans\ryg_rans-download\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\ryg_rans\ryg_rans-download\CMakeFiles\ryg_rans" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{577492DC-AA05-3F49-BCF3-351615EA525E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,24 @@
+# CMake generation dependency list for this directory.
+H:/cmake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake
+H:/cmake/share/cmake-3.27/Modules/CMakeGenericSystem.cmake
+H:/cmake/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake
+H:/cmake/share/cmake-3.27/Modules/CMakeSystem.cmake.in
+H:/cmake/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake
+H:/cmake/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake
+H:/cmake/share/cmake-3.27/Modules/ExternalProject.cmake
+H:/cmake/share/cmake-3.27/Modules/ExternalProject/PatchInfo.txt.in
+H:/cmake/share/cmake-3.27/Modules/ExternalProject/RepositoryInfo.txt.in
+H:/cmake/share/cmake-3.27/Modules/ExternalProject/UpdateInfo.txt.in
+H:/cmake/share/cmake-3.27/Modules/ExternalProject/cfgcmd.txt.in
+H:/cmake/share/cmake-3.27/Modules/ExternalProject/gitclone.cmake.in
+H:/cmake/share/cmake-3.27/Modules/ExternalProject/mkdirs.cmake.in
+H:/cmake/share/cmake-3.27/Modules/ExternalProject/shared_internal_commands.cmake
+H:/cmake/share/cmake-3.27/Modules/FindGit.cmake
+H:/cmake/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake
+H:/cmake/share/cmake-3.27/Modules/FindPackageMessage.cmake
+H:/cmake/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake
+H:/cmake/share/cmake-3.27/Modules/Platform/Windows.cmake
+H:/cmake/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake
+H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/CMakeFiles/3.27.3/CMakeSystem.cmake
+H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/CMakeLists.txt
+H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/ryg_rans-prefix/tmp/ryg_rans-mkdirs.cmake

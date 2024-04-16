@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/CMakeFiles/ryg_rans"
+		},
+		{
+			"file" : "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/CMakeFiles/343ceb57a1a04d2e1d2ad5bbc83958ca/ryg_rans.rule"
+		},
+		{
+			"file" : "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/CMakeFiles/c4376a5f646b406ca4f23ade05589f35/ryg_rans-complete.rule"
+		},
+		{
+			"file" : "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/CMakeFiles/df8e908e81c69a6c5c4b2bd497bf862e/ryg_rans-build.rule"
+		},
+		{
+			"file" : "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/CMakeFiles/df8e908e81c69a6c5c4b2bd497bf862e/ryg_rans-configure.rule"
+		},
+		{
+			"file" : "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/CMakeFiles/df8e908e81c69a6c5c4b2bd497bf862e/ryg_rans-download.rule"
+		},
+		{
+			"file" : "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/CMakeFiles/df8e908e81c69a6c5c4b2bd497bf862e/ryg_rans-install.rule"
+		},
+		{
+			"file" : "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/CMakeFiles/df8e908e81c69a6c5c4b2bd497bf862e/ryg_rans-mkdir.rule"
+		},
+		{
+			"file" : "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/CMakeFiles/df8e908e81c69a6c5c4b2bd497bf862e/ryg_rans-patch.rule"
+		},
+		{
+			"file" : "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/CMakeFiles/df8e908e81c69a6c5c4b2bd497bf862e/ryg_rans-test.rule"
+		},
+		{
+			"file" : "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/CMakeFiles/df8e908e81c69a6c5c4b2bd497bf862e/ryg_rans-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ryg_rans"
+		],
+		"name" : "ryg_rans"
+	}
+}

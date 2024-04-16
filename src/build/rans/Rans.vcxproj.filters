@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="H:\shliao\DCVC\DCVC-DC\src\cpp\rans\rans.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="H:\shliao\DCVC\DCVC-DC\src\cpp\rans\rans.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\cpp\rans\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E7F21AF7-891C-3550-AD08-A0A2F9CF3A30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4BD82AAA-7903-350F-8621-B84A3781AE68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

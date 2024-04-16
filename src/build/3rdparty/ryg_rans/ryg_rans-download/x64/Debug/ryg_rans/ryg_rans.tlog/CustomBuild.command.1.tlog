@@ -1,0 +1,152 @@
+^H:\SHLIAO\DCVC\DCVC-DC\SRC\BUILD\3RDPARTY\RYG_RANS\RYG_RANS-DOWNLOAD\CMAKEFILES\DF8E908E81C69A6C5C4B2BD497BF862E\RYG_RANS-MKDIR.RULE
+setlocal
+H:\cmake\bin\cmake.exe -Dcfgdir=/Debug -P H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/ryg_rans-prefix/tmp/ryg_rans-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/ryg_rans-prefix/src/ryg_rans-stamp/Debug/ryg_rans-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\SHLIAO\DCVC\DCVC-DC\SRC\BUILD\3RDPARTY\RYG_RANS\RYG_RANS-DOWNLOAD\CMAKEFILES\DF8E908E81C69A6C5C4B2BD497BF862E\RYG_RANS-DOWNLOAD.RULE
+setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\ryg_rans
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -P H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/ryg_rans-prefix/tmp/ryg_rans-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/ryg_rans-prefix/src/ryg_rans-stamp/Debug/ryg_rans-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\SHLIAO\DCVC\DCVC-DC\SRC\BUILD\3RDPARTY\RYG_RANS\RYG_RANS-DOWNLOAD\CMAKEFILES\DF8E908E81C69A6C5C4B2BD497BF862E\RYG_RANS-UPDATE.RULE
+setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\ryg_rans\ryg_rans-src
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/ryg_rans-prefix/src/ryg_rans-stamp/Debug/ryg_rans-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\SHLIAO\DCVC\DCVC-DC\SRC\BUILD\3RDPARTY\RYG_RANS\RYG_RANS-DOWNLOAD\CMAKEFILES\DF8E908E81C69A6C5C4B2BD497BF862E\RYG_RANS-PATCH.RULE
+setlocal
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/ryg_rans-prefix/src/ryg_rans-stamp/Debug/ryg_rans-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\SHLIAO\DCVC\DCVC-DC\SRC\BUILD\3RDPARTY\RYG_RANS\RYG_RANS-DOWNLOAD\CMAKEFILES\DF8E908E81C69A6C5C4B2BD497BF862E\RYG_RANS-CONFIGURE.RULE
+setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\ryg_rans\ryg_rans-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/ryg_rans-prefix/src/ryg_rans-stamp/Debug/ryg_rans-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\SHLIAO\DCVC\DCVC-DC\SRC\BUILD\3RDPARTY\RYG_RANS\RYG_RANS-DOWNLOAD\CMAKEFILES\DF8E908E81C69A6C5C4B2BD497BF862E\RYG_RANS-BUILD.RULE
+setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\ryg_rans\ryg_rans-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/ryg_rans-prefix/src/ryg_rans-stamp/Debug/ryg_rans-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\SHLIAO\DCVC\DCVC-DC\SRC\BUILD\3RDPARTY\RYG_RANS\RYG_RANS-DOWNLOAD\CMAKEFILES\DF8E908E81C69A6C5C4B2BD497BF862E\RYG_RANS-INSTALL.RULE
+setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\ryg_rans\ryg_rans-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/ryg_rans-prefix/src/ryg_rans-stamp/Debug/ryg_rans-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\SHLIAO\DCVC\DCVC-DC\SRC\BUILD\3RDPARTY\RYG_RANS\RYG_RANS-DOWNLOAD\CMAKEFILES\DF8E908E81C69A6C5C4B2BD497BF862E\RYG_RANS-TEST.RULE
+setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\ryg_rans\ryg_rans-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/ryg_rans-prefix/src/ryg_rans-stamp/Debug/ryg_rans-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\SHLIAO\DCVC\DCVC-DC\SRC\BUILD\3RDPARTY\RYG_RANS\RYG_RANS-DOWNLOAD\CMAKEFILES\C4376A5F646B406CA4F23ADE05589F35\RYG_RANS-COMPLETE.RULE
+setlocal
+H:\cmake\bin\cmake.exe -E make_directory H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/CMakeFiles/Debug/ryg_rans-complete
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/ryg_rans-prefix/src/ryg_rans-stamp/Debug/ryg_rans-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\SHLIAO\DCVC\DCVC-DC\SRC\BUILD\3RDPARTY\RYG_RANS\RYG_RANS-DOWNLOAD\CMAKEFILES\343CEB57A1A04D2E1D2AD5BBC83958CA\RYG_RANS.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^H:\SHLIAO\DCVC\DCVC-DC\SRC\BUILD\3RDPARTY\RYG_RANS\RYG_RANS-DOWNLOAD\CMAKELISTS.TXT
+setlocal
+H:\cmake\bin\cmake.exe -SH:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download -BH:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download --check-stamp-file H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/ryg_rans/ryg_rans-download/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

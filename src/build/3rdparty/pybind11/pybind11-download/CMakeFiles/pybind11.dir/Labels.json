@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeFiles/pybind11"
+		},
+		{
+			"file" : "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeFiles/01a6c75f0def9063801d4066e7278c26/pybind11.rule"
+		},
+		{
+			"file" : "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeFiles/8549e3dfab512d3f4a4b34de90aa0c66/pybind11-complete.rule"
+		},
+		{
+			"file" : "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeFiles/1e540e0a20775fea474ff94fc33c9227/pybind11-build.rule"
+		},
+		{
+			"file" : "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeFiles/1e540e0a20775fea474ff94fc33c9227/pybind11-configure.rule"
+		},
+		{
+			"file" : "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeFiles/1e540e0a20775fea474ff94fc33c9227/pybind11-download.rule"
+		},
+		{
+			"file" : "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeFiles/1e540e0a20775fea474ff94fc33c9227/pybind11-install.rule"
+		},
+		{
+			"file" : "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeFiles/1e540e0a20775fea474ff94fc33c9227/pybind11-mkdir.rule"
+		},
+		{
+			"file" : "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeFiles/1e540e0a20775fea474ff94fc33c9227/pybind11-patch.rule"
+		},
+		{
+			"file" : "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeFiles/1e540e0a20775fea474ff94fc33c9227/pybind11-test.rule"
+		},
+		{
+			"file" : "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeFiles/1e540e0a20775fea474ff94fc33c9227/pybind11-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"pybind11"
+		],
+		"name" : "pybind11"
+	}
+}

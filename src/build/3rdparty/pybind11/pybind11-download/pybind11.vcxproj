@@ -1,0 +1,911 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C1582283-CD7F-36AA-8E98-2370B650536A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>pybind11</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\1e540e0a20775fea474ff94fc33c9227\pybind11-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+H:\cmake\bin\cmake.exe -Dcfgdir=/Debug -P H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/tmp/pybind11-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/Debug/pybind11-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Debug\pybind11-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Creating directories for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+H:\cmake\bin\cmake.exe -Dcfgdir=/Release -P H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/tmp/pybind11-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/Release/pybind11-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Release\pybind11-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Creating directories for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+H:\cmake\bin\cmake.exe -Dcfgdir=/MinSizeRel -P H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/tmp/pybind11-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/MinSizeRel/pybind11-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\MinSizeRel\pybind11-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Creating directories for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+H:\cmake\bin\cmake.exe -Dcfgdir=/RelWithDebInfo -P H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/tmp/pybind11-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/RelWithDebInfo/pybind11-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\RelWithDebInfo\pybind11-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\1e540e0a20775fea474ff94fc33c9227\pybind11-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No download step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/Debug/pybind11-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\pybind11-custominfo.txt;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Debug\pybind11-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Debug\pybind11-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No download step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/Release/pybind11-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\pybind11-custominfo.txt;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Release\pybind11-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Release\pybind11-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No download step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/MinSizeRel/pybind11-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\pybind11-custominfo.txt;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\MinSizeRel\pybind11-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\MinSizeRel\pybind11-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No download step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/RelWithDebInfo/pybind11-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\pybind11-custominfo.txt;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\RelWithDebInfo\pybind11-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\RelWithDebInfo\pybind11-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\1e540e0a20775fea474ff94fc33c9227\pybind11-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No update step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-src
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/Debug/pybind11-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\pybind11-update-info.txt;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Debug\pybind11-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Debug\pybind11-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No update step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-src
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/Release/pybind11-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\pybind11-update-info.txt;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Release\pybind11-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Release\pybind11-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No update step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-src
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/MinSizeRel/pybind11-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\pybind11-update-info.txt;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\MinSizeRel\pybind11-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\MinSizeRel\pybind11-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No update step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-src
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/RelWithDebInfo/pybind11-update
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\pybind11-update-info.txt;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\RelWithDebInfo\pybind11-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\RelWithDebInfo\pybind11-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\1e540e0a20775fea474ff94fc33c9227\pybind11-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/Debug/pybind11-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\pybind11-patch-info.txt;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Debug\pybind11-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Debug\pybind11-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No patch step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/Release/pybind11-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\pybind11-patch-info.txt;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Release\pybind11-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Release\pybind11-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No patch step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/MinSizeRel/pybind11-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\pybind11-patch-info.txt;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\MinSizeRel\pybind11-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\MinSizeRel\pybind11-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No patch step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/RelWithDebInfo/pybind11-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\pybind11-patch-info.txt;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\RelWithDebInfo\pybind11-update;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\RelWithDebInfo\pybind11-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\1e540e0a20775fea474ff94fc33c9227\pybind11-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/Debug/pybind11-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\tmp\pybind11-cfgcmd.txt;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Debug\pybind11-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Debug\pybind11-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No configure step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/Release/pybind11-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\tmp\pybind11-cfgcmd.txt;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Release\pybind11-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Release\pybind11-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No configure step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/MinSizeRel/pybind11-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\tmp\pybind11-cfgcmd.txt;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\MinSizeRel\pybind11-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\MinSizeRel\pybind11-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No configure step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/RelWithDebInfo/pybind11-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\tmp\pybind11-cfgcmd.txt;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\RelWithDebInfo\pybind11-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\RelWithDebInfo\pybind11-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\1e540e0a20775fea474ff94fc33c9227\pybind11-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/Debug/pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Debug\pybind11-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Debug\pybind11-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No build step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/Release/pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Release\pybind11-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Release\pybind11-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No build step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/MinSizeRel/pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\MinSizeRel\pybind11-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\MinSizeRel\pybind11-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No build step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/RelWithDebInfo/pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\RelWithDebInfo\pybind11-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\RelWithDebInfo\pybind11-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\1e540e0a20775fea474ff94fc33c9227\pybind11-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/Debug/pybind11-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Debug\pybind11-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Debug\pybind11-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No install step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/Release/pybind11-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Release\pybind11-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Release\pybind11-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No install step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/MinSizeRel/pybind11-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\MinSizeRel\pybind11-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\MinSizeRel\pybind11-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No install step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/RelWithDebInfo/pybind11-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\RelWithDebInfo\pybind11-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\RelWithDebInfo\pybind11-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\1e540e0a20775fea474ff94fc33c9227\pybind11-test.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/Debug/pybind11-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Debug\pybind11-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Debug\pybind11-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No test step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/Release/pybind11-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Release\pybind11-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Release\pybind11-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No test step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/MinSizeRel/pybind11-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\MinSizeRel\pybind11-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\MinSizeRel\pybind11-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No test step for 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+H:
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/RelWithDebInfo/pybind11-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\RelWithDebInfo\pybind11-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\RelWithDebInfo\pybind11-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\8549e3dfab512d3f4a4b34de90aa0c66\pybind11-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+H:\cmake\bin\cmake.exe -E make_directory H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeFiles/Debug/pybind11-complete
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/Debug/pybind11-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Debug\pybind11-install;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Debug\pybind11-mkdir;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Debug\pybind11-download;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Debug\pybind11-update;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Debug\pybind11-patch;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Debug\pybind11-configure;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Debug\pybind11-build;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Debug\pybind11-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\Debug\pybind11-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Completed 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+H:\cmake\bin\cmake.exe -E make_directory H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeFiles/Release
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeFiles/Release/pybind11-complete
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/Release/pybind11-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Release\pybind11-install;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Release\pybind11-mkdir;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Release\pybind11-download;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Release\pybind11-update;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Release\pybind11-patch;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Release\pybind11-configure;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Release\pybind11-build;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\Release\pybind11-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\Release\pybind11-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Completed 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+H:\cmake\bin\cmake.exe -E make_directory H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeFiles/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeFiles/MinSizeRel/pybind11-complete
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/MinSizeRel/pybind11-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\MinSizeRel\pybind11-install;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\MinSizeRel\pybind11-mkdir;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\MinSizeRel\pybind11-download;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\MinSizeRel\pybind11-update;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\MinSizeRel\pybind11-patch;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\MinSizeRel\pybind11-configure;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\MinSizeRel\pybind11-build;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\MinSizeRel\pybind11-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\MinSizeRel\pybind11-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Completed 'pybind11'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+H:\cmake\bin\cmake.exe -E make_directory H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeFiles/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeFiles/RelWithDebInfo/pybind11-complete
+if %errorlevel% neq 0 goto :cmEnd
+H:\cmake\bin\cmake.exe -E touch H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/pybind11-prefix/src/pybind11-stamp/RelWithDebInfo/pybind11-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\RelWithDebInfo\pybind11-install;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\RelWithDebInfo\pybind11-mkdir;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\RelWithDebInfo\pybind11-download;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\RelWithDebInfo\pybind11-update;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\RelWithDebInfo\pybind11-patch;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\RelWithDebInfo\pybind11-configure;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\RelWithDebInfo\pybind11-build;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\src\pybind11-stamp\RelWithDebInfo\pybind11-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\RelWithDebInfo\pybind11-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\01a6c75f0def9063801d4066e7278c26\pybind11.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\Debug\pybind11-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\pybind11</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\Release\pybind11-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\pybind11</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\MinSizeRel\pybind11-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\pybind11</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\RelWithDebInfo\pybind11-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\pybind11</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+H:\cmake\bin\cmake.exe -SH:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download -BH:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download --check-stamp-file H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\cmake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;H:\cmake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;H:\cmake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;H:\cmake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;H:\cmake\share\cmake-3.27\Modules\ExternalProject.cmake;H:\cmake\share\cmake-3.27\Modules\ExternalProject\PatchInfo.txt.in;H:\cmake\share\cmake-3.27\Modules\ExternalProject\RepositoryInfo.txt.in;H:\cmake\share\cmake-3.27\Modules\ExternalProject\UpdateInfo.txt.in;H:\cmake\share\cmake-3.27\Modules\ExternalProject\cfgcmd.txt.in;H:\cmake\share\cmake-3.27\Modules\ExternalProject\mkdirs.cmake.in;H:\cmake\share\cmake-3.27\Modules\ExternalProject\shared_internal_commands.cmake;H:\cmake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;H:\cmake\share\cmake-3.27\Modules\Platform\Windows.cmake;H:\cmake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\3.27.3\CMakeSystem.cmake;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\tmp\pybind11-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+H:\cmake\bin\cmake.exe -SH:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download -BH:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download --check-stamp-file H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\cmake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;H:\cmake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;H:\cmake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;H:\cmake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;H:\cmake\share\cmake-3.27\Modules\ExternalProject.cmake;H:\cmake\share\cmake-3.27\Modules\ExternalProject\PatchInfo.txt.in;H:\cmake\share\cmake-3.27\Modules\ExternalProject\RepositoryInfo.txt.in;H:\cmake\share\cmake-3.27\Modules\ExternalProject\UpdateInfo.txt.in;H:\cmake\share\cmake-3.27\Modules\ExternalProject\cfgcmd.txt.in;H:\cmake\share\cmake-3.27\Modules\ExternalProject\mkdirs.cmake.in;H:\cmake\share\cmake-3.27\Modules\ExternalProject\shared_internal_commands.cmake;H:\cmake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;H:\cmake\share\cmake-3.27\Modules\Platform\Windows.cmake;H:\cmake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\3.27.3\CMakeSystem.cmake;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\tmp\pybind11-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+H:\cmake\bin\cmake.exe -SH:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download -BH:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download --check-stamp-file H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\cmake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;H:\cmake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;H:\cmake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;H:\cmake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;H:\cmake\share\cmake-3.27\Modules\ExternalProject.cmake;H:\cmake\share\cmake-3.27\Modules\ExternalProject\PatchInfo.txt.in;H:\cmake\share\cmake-3.27\Modules\ExternalProject\RepositoryInfo.txt.in;H:\cmake\share\cmake-3.27\Modules\ExternalProject\UpdateInfo.txt.in;H:\cmake\share\cmake-3.27\Modules\ExternalProject\cfgcmd.txt.in;H:\cmake\share\cmake-3.27\Modules\ExternalProject\mkdirs.cmake.in;H:\cmake\share\cmake-3.27\Modules\ExternalProject\shared_internal_commands.cmake;H:\cmake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;H:\cmake\share\cmake-3.27\Modules\Platform\Windows.cmake;H:\cmake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\3.27.3\CMakeSystem.cmake;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\tmp\pybind11-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+H:\cmake\bin\cmake.exe -SH:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download -BH:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download --check-stamp-file H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-download/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\cmake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;H:\cmake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;H:\cmake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;H:\cmake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;H:\cmake\share\cmake-3.27\Modules\ExternalProject.cmake;H:\cmake\share\cmake-3.27\Modules\ExternalProject\PatchInfo.txt.in;H:\cmake\share\cmake-3.27\Modules\ExternalProject\RepositoryInfo.txt.in;H:\cmake\share\cmake-3.27\Modules\ExternalProject\UpdateInfo.txt.in;H:\cmake\share\cmake-3.27\Modules\ExternalProject\cfgcmd.txt.in;H:\cmake\share\cmake-3.27\Modules\ExternalProject\mkdirs.cmake.in;H:\cmake\share\cmake-3.27\Modules\ExternalProject\shared_internal_commands.cmake;H:\cmake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;H:\cmake\share\cmake-3.27\Modules\Platform\Windows.cmake;H:\cmake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\3.27.3\CMakeSystem.cmake;H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\pybind11-prefix\tmp\pybind11-mkdirs.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\pybind11">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\ZERO_CHECK.vcxproj">
+      <Project>{DDB40DA3-ED04-3CE9-BC72-8348742B07D8}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

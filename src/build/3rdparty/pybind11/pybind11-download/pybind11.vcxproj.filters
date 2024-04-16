@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\1e540e0a20775fea474ff94fc33c9227\pybind11-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\1e540e0a20775fea474ff94fc33c9227\pybind11-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\1e540e0a20775fea474ff94fc33c9227\pybind11-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\1e540e0a20775fea474ff94fc33c9227\pybind11-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\1e540e0a20775fea474ff94fc33c9227\pybind11-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\1e540e0a20775fea474ff94fc33c9227\pybind11-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\1e540e0a20775fea474ff94fc33c9227\pybind11-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\1e540e0a20775fea474ff94fc33c9227\pybind11-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\8549e3dfab512d3f4a4b34de90aa0c66\pybind11-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\01a6c75f0def9063801d4066e7278c26\pybind11.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="H:\shliao\DCVC\DCVC-DC\src\build\3rdparty\pybind11\pybind11-download\CMakeFiles\pybind11" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B25339D5-E6DC-367F-984F-756ABD223B3F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

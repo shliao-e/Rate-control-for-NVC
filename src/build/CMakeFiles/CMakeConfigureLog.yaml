@@ -1,0 +1,520 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "H:/cmake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Windows - 10.0.18363 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "H:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "H:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "H:/cmake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.5.0+6f08c67f3 for .NET Framework
+      生成启动时间为 2023/8/20 10:44:02。
+      Included response file: G:\\VS_IDE\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+      
+      节点 1 上的项目“H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\3.27.3\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        G:\\VS_IDE\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        G:\\VS_IDE\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\3.27.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=G:\\VS_IDE\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\3.27.3\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:02.64
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/3.27.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "H:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "H:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "H:/cmake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.5.0+6f08c67f3 for .NET Framework
+      生成启动时间为 2023/8/20 10:44:05。
+      Included response file: G:\\VS_IDE\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+      
+      节点 1 上的项目“H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\3.27.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        G:\\VS_IDE\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        G:\\VS_IDE\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\3.27.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=G:\\VS_IDE\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\3.27.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.75
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/3.27.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "H:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "H:/cmake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-hbgjxg"
+      binary: "H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-hbgjxg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-hbgjxg'
+        
+        Run Build Command(s): G:/VS_IDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e8483.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.5.0+6f08c67f3 for .NET Framework
+        生成启动时间为 2023/8/20 10:44:06。
+        Included response file: G:\\VS_IDE\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        节点 1 上的项目“H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hbgjxg\\cmTC_e8483.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_e8483.dir\\Debug\\”。
+          正在创建目录“H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hbgjxg\\Debug\\”。
+          正在创建目录“cmTC_e8483.dir\\Debug\\cmTC_e8483.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_e8483.dir\\Debug\\cmTC_e8483.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          G:\\VS_IDE\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e8483.dir\\Debug\\\\" /Fd"cmTC_e8483.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "H:\\cmake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.35.32215 版
+          CMakeCCompilerABI.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e8483.dir\\Debug\\\\" /Fd"cmTC_e8483.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "H:\\cmake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          G:\\VS_IDE\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hbgjxg\\Debug\\cmTC_e8483.exe" /INCREMENTAL /ILK:"cmTC_e8483.dir\\Debug\\cmTC_e8483.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-hbgjxg/Debug/cmTC_e8483.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-hbgjxg/Debug/cmTC_e8483.lib" /MACHINE:X64  /machine:x64 cmTC_e8483.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_e8483.vcxproj -> H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hbgjxg\\Debug\\cmTC_e8483.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_e8483.dir\\Debug\\cmTC_e8483.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_e8483.dir\\Debug\\cmTC_e8483.tlog\\cmTC_e8483.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hbgjxg\\cmTC_e8483.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.66
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "H:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "H:/cmake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-vdetre"
+      binary: "H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-vdetre"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-vdetre'
+        
+        Run Build Command(s): G:/VS_IDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_fea0e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.5.0+6f08c67f3 for .NET Framework
+        生成启动时间为 2023/8/20 10:44:07。
+        Included response file: G:\\VS_IDE\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        节点 1 上的项目“H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vdetre\\cmTC_fea0e.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_fea0e.dir\\Debug\\”。
+          正在创建目录“H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vdetre\\Debug\\”。
+          正在创建目录“cmTC_fea0e.dir\\Debug\\cmTC_fea0e.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_fea0e.dir\\Debug\\cmTC_fea0e.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          G:\\VS_IDE\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fea0e.dir\\Debug\\\\" /Fd"cmTC_fea0e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "H:\\cmake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.35.32215 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_fea0e.dir\\Debug\\\\" /Fd"cmTC_fea0e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "H:\\cmake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          G:\\VS_IDE\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vdetre\\Debug\\cmTC_fea0e.exe" /INCREMENTAL /ILK:"cmTC_fea0e.dir\\Debug\\cmTC_fea0e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-vdetre/Debug/cmTC_fea0e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-vdetre/Debug/cmTC_fea0e.lib" /MACHINE:X64  /machine:x64 cmTC_fea0e.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_fea0e.vcxproj -> H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vdetre\\Debug\\cmTC_fea0e.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_fea0e.dir\\Debug\\cmTC_fea0e.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_fea0e.dir\\Debug\\cmTC_fea0e.tlog\\cmTC_fea0e.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vdetre\\cmTC_fea0e.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.56
+        
+      exitCode: 0
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "H:/cmake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Windows - 10.0.18363 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "H:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "H:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "H:/cmake/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.5.0+6f08c67f3 for .NET Framework
+      生成启动时间为 2023/8/20 10:45:11。
+      Included response file: G:\\VS_IDE\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+      
+      节点 1 上的项目“H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\3.27.3\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        G:\\VS_IDE\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        G:\\VS_IDE\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\3.27.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=G:\\VS_IDE\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\3.27.3\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.66
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/3.27.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "H:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "H:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "H:/cmake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.5.0+6f08c67f3 for .NET Framework
+      生成启动时间为 2023/8/20 10:45:11。
+      Included response file: G:\\VS_IDE\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+      
+      节点 1 上的项目“H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\3.27.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        G:\\VS_IDE\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        G:\\VS_IDE\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\3.27.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=G:\\VS_IDE\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\3.27.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.51
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/3.27.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "H:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "H:/cmake/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-ivr7us"
+      binary: "H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-ivr7us"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-ivr7us'
+        
+        Run Build Command(s): G:/VS_IDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d7246.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.5.0+6f08c67f3 for .NET Framework
+        生成启动时间为 2023/8/20 10:45:12。
+        Included response file: G:\\VS_IDE\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        节点 1 上的项目“H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivr7us\\cmTC_d7246.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_d7246.dir\\Debug\\”。
+          正在创建目录“H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivr7us\\Debug\\”。
+          正在创建目录“cmTC_d7246.dir\\Debug\\cmTC_d7246.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_d7246.dir\\Debug\\cmTC_d7246.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          G:\\VS_IDE\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d7246.dir\\Debug\\\\" /Fd"cmTC_d7246.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "H:\\cmake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.35.32215 版
+          CMakeCCompilerABI.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d7246.dir\\Debug\\\\" /Fd"cmTC_d7246.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "H:\\cmake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          G:\\VS_IDE\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivr7us\\Debug\\cmTC_d7246.exe" /INCREMENTAL /ILK:"cmTC_d7246.dir\\Debug\\cmTC_d7246.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-ivr7us/Debug/cmTC_d7246.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-ivr7us/Debug/cmTC_d7246.lib" /MACHINE:X64  /machine:x64 cmTC_d7246.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_d7246.vcxproj -> H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivr7us\\Debug\\cmTC_d7246.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_d7246.dir\\Debug\\cmTC_d7246.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_d7246.dir\\Debug\\cmTC_d7246.tlog\\cmTC_d7246.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ivr7us\\cmTC_d7246.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.55
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "H:/cmake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "H:/cmake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-td31fa"
+      binary: "H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-td31fa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-td31fa'
+        
+        Run Build Command(s): G:/VS_IDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ad8be.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.5.0+6f08c67f3 for .NET Framework
+        生成启动时间为 2023/8/20 10:45:13。
+        Included response file: G:\\VS_IDE\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        节点 1 上的项目“H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-td31fa\\cmTC_ad8be.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_ad8be.dir\\Debug\\”。
+          正在创建目录“H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-td31fa\\Debug\\”。
+          正在创建目录“cmTC_ad8be.dir\\Debug\\cmTC_ad8be.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_ad8be.dir\\Debug\\cmTC_ad8be.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          G:\\VS_IDE\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ad8be.dir\\Debug\\\\" /Fd"cmTC_ad8be.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "H:\\cmake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.35.32215 版
+          CMakeCXXCompilerABI.cpp
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ad8be.dir\\Debug\\\\" /Fd"cmTC_ad8be.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "H:\\cmake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          G:\\VS_IDE\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-td31fa\\Debug\\cmTC_ad8be.exe" /INCREMENTAL /ILK:"cmTC_ad8be.dir\\Debug\\cmTC_ad8be.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-td31fa/Debug/cmTC_ad8be.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-td31fa/Debug/cmTC_ad8be.lib" /MACHINE:X64  /machine:x64 cmTC_ad8be.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_ad8be.vcxproj -> H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-td31fa\\Debug\\cmTC_ad8be.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_ad8be.dir\\Debug\\cmTC_ad8be.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_ad8be.dir\\Debug\\cmTC_ad8be.tlog\\cmTC_ad8be.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-td31fa\\cmTC_ad8be.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.54
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "H:/cmake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "H:/cmake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "H:/cmake/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-src/tools/pybind11Common.cmake:294 (check_cxx_compiler_flag)"
+      - "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-src/tools/pybind11Common.cmake:348 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-src/tools/pybind11Common.cmake:392 (_pybind11_generate_lto)"
+      - "H:/shliao/DCVC/DCVC-DC/src/build/3rdparty/pybind11/pybind11-src/CMakeLists.txt:200 (include)"
+    checks:
+      - "Performing Test HAS_MSVC_GL_LTCG"
+    directories:
+      source: "H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-fppoqg"
+      binary: "H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-fppoqg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: ""
+    buildResult:
+      variable: "HAS_MSVC_GL_LTCG"
+      cached: true
+      stdout: |
+        Change Dir: 'H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-fppoqg'
+        
+        Run Build Command(s): G:/VS_IDE/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_78304.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.5.0+6f08c67f3 for .NET Framework
+        生成启动时间为 2023/8/20 11:07:05。
+        Included response file: G:\\VS_IDE\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        节点 1 上的项目“H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fppoqg\\cmTC_78304.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_78304.dir\\Debug\\”。
+          正在创建目录“H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fppoqg\\Debug\\”。
+          正在创建目录“cmTC_78304.dir\\Debug\\cmTC_78304.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_78304.dir\\Debug\\cmTC_78304.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          G:\\VS_IDE\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_78304.dir\\Debug\\\\" /Fd"cmTC_78304.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fppoqg\\src.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.35.32215 版
+          src.cxx
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /GL /D _MBCS /D WIN32 /D _WINDOWS /D HAS_MSVC_GL_LTCG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_78304.dir\\Debug\\\\" /Fd"cmTC_78304.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fppoqg\\src.cxx"
+        Link:
+          G:\\VS_IDE\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fppoqg\\Debug\\cmTC_78304.exe" /INCREMENTAL /ILK:"cmTC_78304.dir\\Debug\\cmTC_78304.ilk" /NOLOGO "-LTCG" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-fppoqg/Debug/cmTC_78304.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:/shliao/DCVC/DCVC-DC/src/build/CMakeFiles/CMakeScratch/TryCompile-fppoqg/Debug/cmTC_78304.lib" /MACHINE:X64  /machine:x64 cmTC_78304.dir\\Debug\\src.obj
+        LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范) [H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fppoqg\\cmTC_78304.vcxproj]
+          正在生成代码
+          已完成代码的生成
+          cmTC_78304.vcxproj -> H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fppoqg\\Debug\\cmTC_78304.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_78304.dir\\Debug\\cmTC_78304.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_78304.dir\\Debug\\cmTC_78304.tlog\\cmTC_78304.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fppoqg\\cmTC_78304.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+        
+        “H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fppoqg\\cmTC_78304.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范) [H:\\shliao\\DCVC\\DCVC-DC\\src\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fppoqg\\cmTC_78304.vcxproj]
+        
+            1 个警告
+            0 个错误
+        
+        已用时间 00:00:02.59
+        
+      exitCode: 0
+...

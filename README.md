@@ -14,9 +14,7 @@ This repository defines a rate control approach for learned video compression, w
 
 ## Data Preparation
 ### Test Dataset
-The test datasets include:
--  HEVC common test sequences
-Basically, the test sequences are cropped. After that, both the width and height are the multiplier of 64. Subsequently, we split them into consecutive pictures by ffmpeg. Taking HEVC ClassB as example, the data process is shown as follows. 
+The test datasets is HEVC common test sequences. Basically, the test sequences are cropped. After that, both the width and height are the multiplier of 64. Subsequently, we split them into consecutive pictures by ffmpeg. Taking HEVC ClassB as example, the data process is shown as follows. 
 1. Crop Videos from 1920x1080 to 1920x1024.
     ```
     ffmpeg -pix_fmt yuv420p  -s 1920x1080 -i ./videos/xxxx.yuv -vf crop=1920:1024:0:0 ./videos_crop/xxxx.yuv

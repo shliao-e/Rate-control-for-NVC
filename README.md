@@ -1,10 +1,6 @@
 # Introduction
 
-Pytorch implementation of the paper "RATE-QUALITY BASED RATE CONTROL MODEL FOR NEURAL VIDEO COMPRESSION". The rate control method has been evaluated on four NVC models. Training and testing code will be provided, some of which are still being organized and updated weekly.
-- DVC (updating)
-- DMVC (updating)
-- DCVC-HEM (updating)
-- DCVC-DC (complete)
+Pytorch implementation of the paper "RATE-QUALITY BASED RATE CONTROL MODEL FOR NEURAL VIDEO COMPRESSION". The rate control method has been evaluated on four NVC models. 
 
 
 ## Requirements
